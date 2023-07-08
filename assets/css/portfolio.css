@@ -171,7 +171,7 @@ main {
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     padding: 30px 33px;
-    
+
 }
 
 .skill-tltle {
@@ -188,55 +188,116 @@ main {
     font-weight: 400;
     line-height: 28px;
 }
+
 /* summary of my Resume */
-.resume-tittle{
-    color:  #181818;
-text-align: center;
-font-size: 35px;
-font-weight: 700;
-margin-bottom: 110px;
+.resume-tittle {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 110px;
 }
-.summary-Resume{
+
+.summary-Resume {
     margin-top: 120px;
     margin-bottom: 110px;
 }
-.Resume-container{
+
+.Resume-container {
     display: flex;
     justify-content: space-between;
     gap: 24px;
 }
-.resume-column-tittle{
-    color:#474747;
-font-size: 30px;
-font-weight: 700;
+
+.resume-column-tittle {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
-.resume-item{
-}
-.resume-item-header{
+
+.resume-item {}
+
+.resume-item-header {
     margin-top: 30px;
 
-    color:  #474747;
+    color: #474747;
     font-size: 25px;
     font-weight: 700;
 }
 
-.resume-item-insusite{
+.resume-item-insusite {
     color: #757575;
     font-size: 10px;
     font-weight: 600;
 }
-.resume-item-description{
+
+.resume-item-description {
     margin-top: 20px;
-    color:  #757575;
+    color: #757575;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 30px;
     padding-right: 35px;
 }
-hr{
-   border: 1px solid #D1D1D1;
+
+hr {
+    border: 1px solid #D1D1D1;
 }
-.download-cv{
-   text-align: center;
-   margin-top: 50px;
+
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
 }
+
+/* footer */
+footer {
+    background: #FFF8F3;
+    padding: 130px 200px;
+    display: flex;
+    gap: 70px;
+    /* ju7tify-content: space-between; */
+}
+
+.footer-tittle {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.footer-descriptin {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.footer-comment-header {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+.footer-comment>input{
+    display: block;
+    padding: 18px;
+    width: 100%;
+    border: 0px;
+    margin-top: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.footer-comment>textarea{
+    display: block;
+    padding: 15px;
+    width: 100%;
+    border: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
